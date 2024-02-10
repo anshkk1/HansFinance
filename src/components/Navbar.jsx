@@ -1,18 +1,19 @@
 import React from "react";
 import { useState } from "react";
-import { close, logo, menu } from "../assets";
+import { close, menu } from "../assets";
 import { navLinks } from "../constants";
+import newlogo from "../assets/finalLogo.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-124px h-32px" />
+      <img src={newlogo} alt="hoobank" className="w-124px h-32px newLogo" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-white text-[16px] ${
+            className={`bounce font-poppins font-normal cursor-pointer text-white text-[16px] ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >

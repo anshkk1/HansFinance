@@ -34,6 +34,32 @@
   text-fill-color: transparent;
 }
 
+.newLogo {
+  height: 60px;
+  width: 320px;
+  /* border-bottom: 1px solid white; */
+}
+
+.bounce {
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bounce:hover {
+  animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
