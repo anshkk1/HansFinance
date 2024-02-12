@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../style";
-import { discount } from "../assets";
+import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => (
@@ -21,9 +21,26 @@ const Hero = () => (
           <br className="sm:block hidden" />
           Today's <span className="text-gradient">Innovation</span>
         </h1>
-        <div className="ss:flex hidden md:mr-4 mr-0">
+        <div className="ss:flex hidden md:mr-4 mr-0 bounce">
           <GetStarted />
         </div>
+      </div>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-5`}>
+        Maximize your financial potential with our bank's low-rate home loans,
+        exclusive credit cards, and expert financial strategies.
+      </p>
+    </div>
+    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative `}>
+      <img
+        src={robot}
+        alt="billing"
+        className="w-[100%] h-[100%] relative z-[5]"
+      />
+      <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
+      <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
+      <div className="absolute z-[0] w-[40%] h-[35%] right-0 bottom-20 blue__gradient" />
+      <div className={`ss:hidden ${styles.flexCenter}`}>
+        <GetStarted />
       </div>
     </div>
   </section>
