@@ -2,14 +2,14 @@ import React from "react";
 import { useState } from "react";
 import { close, menu } from "../assets";
 import { navLinks } from "../constants";
-import newlogo from "../assets/finalLogo.png";
+import newlogo from "../assets/pplogo.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <img src={newlogo} alt="hoobank" className="w-124px h-32px newLogo" />
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none md:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -22,7 +22,7 @@ const Navbar = () => {
         ))}
       </ul>
 
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="md:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
           alt="menu"
