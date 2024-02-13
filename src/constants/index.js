@@ -36,25 +36,25 @@ export const navLinks = [
 
 export const features = [
   {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
+    id: "bank-feature-1",
     icon: shield,
-    title: "100% Secured",
+    title: "Secure Savings",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Your savings are securely stored in our trusted vaults, ensuring peace of mind.",
   },
   {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    id: "bank-feature-2",
+    icon: star,
+    title: "Personalized Service",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Experience personalized service tailored to your financial needs and goals.",
+  },
+  {
+    id: "bank-feature-3",
+    icon: send,
+    title: "Global Access",
+    content:
+      "Access your accounts and manage your finances seamlessly from anywhere in the world.",
   },
 ];
 

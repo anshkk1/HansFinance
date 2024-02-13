@@ -3,7 +3,9 @@ import styles from "../style";
 import { discount } from "../assets";
 import GetStarted from "./GetStarted";
 import cc2 from "../assets/pngegg.png";
-import cc3 from "../assets/cc4.png";
+
+import visa from "../assets/visa.png";
+import mcard from "../assets/mcard.png";
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -36,7 +38,9 @@ const Hero = () => (
         exclusive credit cards, and expert financial strategies.
       </p>
     </div>
-    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative `}>
+    <div
+      className={`flex-1 flex ${styles.flexCenter} sm:mr-0 mr-5 md:my-0 relative`}
+    >
       <div className={`md:flex hidden`}>
         <img
           src={cc2}
@@ -44,17 +48,22 @@ const Hero = () => (
           className="w-[100%] h-[100%] relative z-[5]"
         />
       </div>
-      <div className={`md:hidden ${styles.flexCenter}`}>
+      <div className={`md:hidden ${styles.flexCenter} w-[70%]`}>
         <img
-          src={cc3}
+          src={mcard}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5] paypal"
+          className="w-[100%] h-[100%] relative z-[5] paypal pl-10 mt-2"
+        />
+        <img
+          src={visa}
+          alt="billing"
+          className="w-[100%] h-[100%] relative z-[5] paypal pr-12"
         />
       </div>
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
       <div className="absolute z-[0] w-[40%] h-[35%] right-0 bottom-20 blue__gradient" />
-      <div className={`ss:hidden ${styles.flexCenter}`}>
+      <div className={`ss:hidden ${styles.flexCenter} sm:pl-0 pl-5`}>
         <GetStarted />
       </div>
     </div>
