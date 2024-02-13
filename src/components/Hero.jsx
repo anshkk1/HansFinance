@@ -2,6 +2,9 @@ import React from "react";
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
+import cc from "../assets/cc3.png";
+import cc2 from "../assets/pngegg.png";
+import cc3 from "../assets/cc4.png";
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -11,7 +14,7 @@ const Hero = () => (
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
         <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
         <p className={`${styles.paragraph} ml-2`}>
-          <span className="text-white">20%</span> Discount For{" "}
+          <span className="text-white">11.7%</span> Discount For{" "}
           <span className="text-white">1 Month</span> Account
         </p>
       </div>
@@ -31,11 +34,20 @@ const Hero = () => (
       </p>
     </div>
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative `}>
-      <img
-        src={robot}
-        alt="billing"
-        className="w-[100%] h-[100%] relative z-[5]"
-      />
+      <div className={`md:flex hidden`}>
+        <img
+          src={cc2}
+          alt="billing"
+          className="w-[100%] h-[100%] relative z-[5]"
+        />
+      </div>
+      <div className={`md:hidden ${styles.flexCenter}`}>
+        <img
+          src={cc3}
+          alt="billing"
+          className="w-[100%] h-[100%] relative z-[5] paypal"
+        />
+      </div>
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
       <div className="absolute z-[0] w-[40%] h-[35%] right-0 bottom-20 blue__gradient" />
