@@ -16,8 +16,6 @@ Sleek UI: Clean and modern user interface built with Tailwind CSS.
 React JS: Frontend JavaScript library for building user interfaces.
 Tailwind CSS: Utility-first CSS framework for rapidly building custom designs.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
