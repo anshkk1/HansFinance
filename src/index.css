@@ -86,6 +86,14 @@
   );
 }
 
+.text-purp {
+  color: #c72ee6;
+}
+
+.bg-purp {
+  background: #c72ee6;
+}
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
