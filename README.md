@@ -2,8 +2,6 @@
 
 # HansFinance
 
-## HansFinance
-
 HansFinance is a front-end banking website project developed to enhance my skills in front-end development using React and Tailwind CSS. 
 The website offers various card options and home loan services, providing users with an intuitive and seamless banking experience.
 
