@@ -1,3 +1,5 @@
+![image](https://github.com/CHRISK-17/HansFinance/assets/125565153/12fbdc38-3c0a-4927-9a3e-e95b6a80ecf9)
+
 # HansFinance
 
 ## HansFinance
