@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# HansFinance
+
+## HansFinance
+
+HansFinance is a front-end banking website project developed to enhance my skills in front-end development using React and Tailwind CSS. 
+The website offers various card options and home loan services, providing users with an intuitive and seamless banking experience.
+
+## Features
+
+Card Options: Explore different card options available.
+Home Loan Services: Learn about the home loan services offered.
+Sleek UI: Clean and modern user interface built with Tailwind CSS.
+
+## Technologies Used
+
+React JS: Frontend JavaScript library for building user interfaces.
+Tailwind CSS: Utility-first CSS framework for rapidly building custom designs.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
