@@ -49,12 +49,12 @@ const Hero = () => (
         <img
           src={mcard}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5] paypal pl-10 mt-2"
+          className="w-[100%] h-[100%] relative z-[5] paypal pl-10 mt-2 "
         />
         <img
           src={visa}
           alt="billing"
-          className="w-[100%] h-[100%] relative z-[5] paypal pr-12"
+          className="w-[100%] h-[100%] relative z-[5] paypal pr-12 ppimg"
         />
       </div>
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

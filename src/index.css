@@ -74,6 +74,10 @@
   }
 }
 
+.ppimg {
+  filter: brightness(2.4);
+}
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
