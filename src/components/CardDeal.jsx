@@ -7,8 +7,7 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Fuel your adventures with our <br className="sm:block hidden" />
-        flexible card options.
+        Drive towards prosperity with our flexible card options.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Empower your dreams with our fluid credit and debit card choices,

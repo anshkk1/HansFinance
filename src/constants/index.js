@@ -62,25 +62,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Simple interface, great customer support, and excellent rates. Best banking experience I've had in years. Highly recommend!",
+    name: "Jessica Baker",
+    title: "Executive Director, Market365",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Love the convenience of mobile banking and quick transactions. Plus, the rewards program is fantastic. Five stars!",
+    name: "Allan Smith",
+    title: "Vice Chancellor, Toni Lawyers LLC",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Amazing interest rates and seamless account management. I've saved so much with this bank. Couldn't be happier!",
+    name: "Adam Ferguson",
+    title: "Founder, Penguin Real Estate",
     img: people03,
   },
 ];
@@ -204,9 +204,5 @@ export const clients = [
   {
     id: "client-3",
     logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];
