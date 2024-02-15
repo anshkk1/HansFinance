@@ -18,8 +18,8 @@ const Hero = () => (
           alt="discount"
           className="w-[32px] h-[32px] blue-logo"
         />
-        <p className={`${styles.paragraph} ml-2`}>
-          2 year Fixed rate - <span className="text-white">6.6%</span> on{" "}
+        <p className={`${styles.paragraph} ml-2 `}>
+          2 year Fixed rate - <span className="text-white">6.34%</span> on{" "}
           <span className="text-white">Home Financing!</span>
         </p>
       </div>
@@ -29,9 +29,6 @@ const Hero = () => (
           <br className="sm:block hidden" />
           Today's <span className="text-gradient">Innovation</span>
         </h1>
-        <div className="ss:flex hidden md:mr-4 mr-0 bounce">
-          <GetStarted />
-        </div>
       </div>
       <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-5`}>
         Maximize your financial potential with our bank's low-rate home loans,
@@ -63,9 +60,6 @@ const Hero = () => (
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
       <div className="absolute z-[0] w-[40%] h-[35%] right-0 bottom-20 blue__gradient" />
-      <div className={`ss:hidden ${styles.flexCenter} sm:pl-0 pl-5`}>
-        <GetStarted />
-      </div>
     </div>
   </section>
 );

@@ -99,7 +99,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Investment Portfolio",
-    value: "$310M+",
+    value: "$310M",
   },
 ];
 
